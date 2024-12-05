@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user logins facebook",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000420300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches facebook application",
+            "match": {
+              "location": "com.fb.stepdefinitions.Login.user_launches_facebook_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-05T06:23:20.393Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4751694200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fb.hooks.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "user enters credentials",
+        "description": "",
+        "id": "user-logins-facebook;user-enters-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167626400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username",
+            "match": {
+              "location": "com.fb.stepdefinitions.Login.user_enters_username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206462400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters password",
+            "match": {
+              "location": "com.fb.stepdefinitions.Login.user_enters_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240031000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks login button",
+            "match": {
+              "location": "com.fb.stepdefinitions.Login.user_clicks_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user logins facebook",
+    "description": "",
+    "id": "user-logins-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
+    "tags": []
+  }
+]
