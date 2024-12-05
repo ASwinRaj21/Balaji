@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-			features = "C:\\Users\\aswin\\eclipse-workspace\\Login\\src\\test\\resources",
+			features = "..\\src\\test\\resources",
 			glue = "com.fb",
 			dryRun = false,
 			monochrome = true,
